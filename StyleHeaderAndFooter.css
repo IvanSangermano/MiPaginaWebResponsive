@@ -1,0 +1,93 @@
+.ContainerHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url(img/bg04.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw;
+    border-bottom: gray 1px solid;
+}
+ 
+nav.nav-main ul{
+    display: flex;
+    flex-direction: row;
+}
+nav.nav-main h1{
+text-align: left;
+margin-right: 100px;
+}
+
+nav.nav-main a{
+    text-decoration: none;
+    font-size: 2em;
+    /* color: white; */ 
+}
+
+.header li{
+    list-style: none;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+nav.nav-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.ContainerHeader .header .nav-main .botonMenu img{
+    display: none;
+    width: 20%;
+}
+
+/* FOOTER */ 
+footer{
+    margin: 0 200px;
+}
+.FooterInformacion{
+    display: flex;
+    flex-direction:row;
+    text-align: left;
+}
+.ColumnasFooter{
+    display: flex;
+    flex-direction: row;
+}
+div.FilasFooter ul li, div.FooterDerechosDeAutor a{
+    list-style: none;
+    padding-bottom: 2vh;
+}
+div.FilasFooter ul li a{
+color: #546b76;
+border-bottom: solid 1px #b5bec3;
+padding-bottom: 1.5vh;
+}
+div.CosasImportantes{
+    margin-right: 100px;
+}
+div.CosasImportantes p, p.TituloFooter{
+    color: black;
+    font-size: 1.3em;
+}
+
+.TextoInformativo{
+    width: 31.9%;
+}
+
+div.FooterDerechosDeAutor{
+    text-align: center;
+}
+
+div.FooterDerechosDeAutor p{
+    color: black;
+}
+
+div.FooterDerechosDeAutor a{
+    text-decoration:none;
+    color: black;
+}

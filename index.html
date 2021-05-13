@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="StyleHomePage.css">
+    <link rel="stylesheet" href="StyleHeaderAndFooter.css">
     <title>Halcyonic</title>
 </head>
 <body>
     <div class = ContainerHeader>
         <div class=header>
                 <nav class =nav-main>
+                    <div class = botonMenu>
+                        <img src="MenuDesplegable.png">
+                    </div>
                     <h1><a href="index.html">Halcyonic</a></h1>
                     <ul class=nav-menu>
                         <li><a href="index.html">Homepage</a></li>
@@ -23,7 +27,7 @@
         </div>
 
         <section  class =Cabecera>
-            <div>
+            <div class = contenedorDeBoton>
                 <p>We do something really useful, important, and unique. Learn all about it here...</p>
                 <button>Go on, Click me!</button>
             </div>
@@ -32,13 +36,11 @@
             </div>
         </section>
     </div>
-    <main>
-        <!--SECCION DE FOTOS-->
         <section  class =SeccionConFotosEInformacion>
-            <div  class =ArticulosConFotos>
+            <div class =ArticulosConFotos>
                 <img src="pic01.jpg"  class =FotoArticulo>
-                <p .TituloFoto>Welcome to Halcyonic</p>
-                <p .DescripcionFoto>This is Halcyonic, a free site template by <a href="https://twitter.com/SangerIvan">Ivan Sanger</a> for <a href="https://html5up.net/">HTML5 UP</a> . It's responsive, built on HTML5 + CSS3, and includes 5 unique page layouts.</p>
+                <p class=TituloFoto>Welcome to Halcyonic</p>
+                <p class=DescripcionFoto>This is Halcyonic, a free site template by <a href="https://twitter.com/SangerIvan">Ivan Sanger</a> for <a href="https://html5up.net/">HTML5 UP</a> . It's responsive, built on HTML5 + CSS3, and includes 5 unique page layouts.</p>
             </div>
             <div  class =ArticulosConFotos>
                 <img src="pic02.jpg"  class =FotoArticulo>
@@ -50,7 +52,7 @@
                 <p  class =TituloFoto>License Info</p>
                 <p  class =DescripcionFoto>Halcyonic is licensed under the <a href="https://html5up.net/license">CCA</a> license, so use it for personal/commercial use as much as you like (just keep our credits intact).</p>
             </div>
-            <div .ArticulosConFotos>
+            <div class =ArticulosConFotos>
                 <img src="pic04.jpg"  class =FotoArticulo>
                 <p  class =TituloFoto>Volutpat etiam aliquam</p>
                 <p  class =DescripcionFoto>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. Suspendisse eu varius nibh. Suspendisse vitae magna mollis.</p>
@@ -58,18 +60,21 @@
         </section>
 
         <!--SECCION DE FOTOS 2-->
-        <section>
-            <div>
+        <section class=ContenedorSeccionFotos2>
+            <div Class=SeccionFotos2>
                 <p  class =TituloSeccion2>Who We Are</p>
                 <p  class =SubTituloSeccion2>A subheading about who we are</p>
-                <img src="pic05.jpg">
-                <p  class =DescripcionFotoSeccion2>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan magna sed. Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis justo facilisis quis. Sed sagittis amet lorem ipsum.</p>
-            </div>
-            <!--ACA PUEDE IR OTRO DIV, VER LA DISTRIBUCION EN EL CSS-->
-            <div>  
-                <p  class =TituloSeccion2>Who We Are</p>
-                <p  class =SubTituloSeccion2>A subheading about who we are</p>
-                <ul>
+                <div class=contenedorImagen>
+                    <img src="pic05.jpg" class= imagen>
+                    <p class =DescripcionFotoSeccion2>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan magna sed. Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis justo facilisis quis. Sed sagittis amet lorem ipsum.</p>
+                </div>
+                </div>
+            
+
+            <div Class=SeccionFotos2>  
+                <p  class =TituloSeccion2>Who We Do</p>
+                <p  class =SubTituloSeccion2>A subheading about who we do</p>
+                <ul class= listaConIconos>
                     <li>Sed mattis quis rutrum accum</li>
                     <li>Eu varius nibh suspendisse lorem</li>
                     <li>Magna eget odio amet mollis justo</li>
@@ -77,38 +82,42 @@
                     <li>Amet tellus gravida lorem ipsum</li>
                 </ul>
             </div>
-            <div>
-                <p  class =TituloSeccion2>Who We Are</p>
-                <p  class =SubTituloSeccion2>A subheading about who we are</p>
-                <ul>
-                    <li>
+            <div Class=SeccionFotos2>
+
+                <p  class =TituloSeccion2>What People Are Saying</p>
+                <p  class =SubTituloSeccion2>And a final subheading about our clients</p>
+                    <div class=ListaConImagenes>
                         <img src="pic06.jpg">
-                        <p>"Neque nisidapibus mattis"</p>
-                        <span>Jane Doe, CEO of UntitledCorp</span>
-                    </li>
-                    <li>
+                        <div class=ContenedorTextoEnLista>
+                            <p>"Neque nisidapibus mattis"</p>
+                            <span>Jane Doe, CEO of UntitledCorp</span>
+                        </div>
+                    </div>
+                    <div class=ListaConImagenes>
                         <img src="pic07.jpg">
-                        <p>"Lorem ipsum consequat!"</p>
-                        <span>John Doe, President of FakeBiz</span>
-                    </li>
-                    <li>
+                        <div class=ContenedorTextoEnLista>
+                            <p>"Lorem ipsum consequat!"</p>
+                            <span>John Doe, President of FakeBiz</span>
+                        </div>
+                    </div>
+                    <div class=ListaConImagenes>
                         <img src="pic08.jpg">
-                        <p>"Magna veroeros amet tempus"</p>
-                        <span>Mary Smith, CFO of UntitledBiz</span>
-                    </li>
-                </ul>
+                        <div class=ContenedorTextoEnLista>
+                            <p>"Magna veroeros amet tempus"</p>
+                            <span>Mary Smith, CFO of UntitledBiz</span>
+                        </div>
+                    </div>
             </div>
         </section>
 
-    </main>
 
     <!--PIE DE PAGINA-->
     <footer>
-        <section  class =FooterInformacion>
-            <div  class =CosasImportantes>
-                <p .TituloFooter>Links to Important Stuff</p>
-                <div .ColumnasFooter>
-                    <div .FilasFooter>
+        <section class =FooterInformacion>
+            <div class =CosasImportantes>
+                <p Class=TituloFooter>Links to Important Stuff</p>
+                <div Class=ColumnasFooter>
+                    <div Class=FilasFooter>
                         <ul>
                             <li><a href="index.html">Neque amet dapibus</a></li>
                             <li><a href="index.html">Sed mattis quis rutrum</a></li>
@@ -116,7 +125,7 @@
                             <li><a href="index.html">Eu varius vitae magna</a></li>
                         </ul>
                     </div>
-                    <div .FilasFooter>
+                    <div Class=FilasFooter>
                         <ul>
                             <li><a href="index.html">Neque amet dapibus</a></li>
                             <li><a href="index.html">Sed mattis quis rutrum</a></li>
@@ -124,7 +133,7 @@
                             <li><a href="index.html">Eu varius vitae magna</a></li>
                         </ul>
                     </div>
-                    <div .FilasFooter>
+                    <div Class=FilasFooter>
                         <ul>
                             <li><a href="index.html">Neque amet dapibus</a></li>
                             <li><a href="index.html">Sed mattis quis rutrum</a></li>
@@ -132,7 +141,7 @@
                             <li><a href="index.html">Eu varius vitae magna</a></li>
                         </ul>
                     </div>
-                    <div .FilasFooter>
+                    <div Class=FilasFooter>
                         <ul>
                             <li><a href="index.html">Neque amet dapibus</a></li>
                             <li><a href="index.html">Sed mattis quis rutrum</a></li>

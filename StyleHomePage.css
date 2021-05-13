@@ -1,0 +1,187 @@
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.ContainerHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw;
+    border-bottom: gray 1px solid;
+}
+
+.Cabecera{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4vh; 
+}
+
+.contenedorDeBoton p{
+font-size: 1.5em;
+padding-right: 10px;
+color: black;
+}
+
+.contenedorDeBoton{
+    width: 40%;
+}
+
+.contenedorDeBoton button{
+    background-color: #ed391b;
+    border-radius: 10px;
+    padding: 20px 60px;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 75%);
+    
+    font-size: 1.7em;
+    font-weight: 300;
+}
+
+.contenedorDeBoton button:hover{
+    background-color: #ce1a00;
+}
+
+.SeccionConFotosEInformacion{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-image: url(img/bg02.jpg);
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.ArticulosConFotos{
+    display: flex;
+    flex-direction: column;
+    width: 16.8%;
+    margin: 0 10px 0 10px;
+}
+
+.ArticulosConFotos .TituloFoto{
+    color: #666666;
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-top: 0;
+    line-height: 2;
+}
+
+.ArticulosConFotos .DescripcionFoto{
+    color: #c6c8c8;
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-top: 0;
+    line-height: 2;
+}
+
+.ArticulosConFotos .FotoArticulo{
+    color: #c6c8c8;
+}
+
+.ContenedorSeccionFotos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff url(img/bg04.png);
+}
+
+.SeccionFotos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    height: 100%;
+    margin: 15vh 1vw;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
+}
+
+.SeccionFotos2 .TituloSeccion2{
+    font-size: 1.8em;
+    font-weight: 300;
+    color: #373f42;
+    margin: 2vh 0 0 2vw;
+}
+
+.SeccionFotos2 .SubTituloSeccion2{
+    color: #96a9b5;
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 0 0 0 2vw;
+    line-height: 2;
+}
+
+.SeccionFotos2 .contenedorImagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 2vw;
+}
+
+.SeccionFotos2 .contenedorImagen p{
+    text-align: start;
+    color: #474f51;
+    font-size: 13.5pt;
+    
+    
+    line-height: 1.85em;
+    font-weight: 300;
+}
+
+.SeccionFotos2 .listaConIconos li{
+    list-style: none;
+    text-align: start;
+    color: #474f51;
+    font-size: 13.5pt;
+    line-height: 1.85em;
+    font-weight: 300;
+    padding: 0.7em 0 0.7em 45px;
+    font-size: 1.2em;
+    background: url(icon-checkmark.png) 0px 1.05em no-repeat;
+}
+
+.SeccionFotos2 .listaConImagenes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-right: 2vw;
+    margin-bottom: 1vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid lightgray;
+}
+
+.imagen{
+max-width: 100%;
+}
+
+.SeccionFotos2 .listaConIconos img{
+    margin-right: 1vw;
+}
+
+.SeccionFotos2 .listaConIconos .ContenedorTextoEnLista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SeccionFotos2 .listaConIconos .ContenedorTextoEnLista p{
+    color: #474f51;
+    font-size: 15.5pt;
+    
+    
+    font-style: italic;
+    font-weight: 300;
+}
+.SeccionFotos2 .listaConIconos .ContenedorTextoEnLista span{
+    color: #474f51;
+    font-size: 13.5pt;
+    
+    font-weight: 400;
+}
