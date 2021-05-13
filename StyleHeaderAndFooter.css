@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: url(bg01.jpg);
+    background: url(Fondos/bg01.jpg);
 }
 
 header{
@@ -51,7 +51,7 @@ nav.nav-main{
 
 /* FOOTER */ 
 footer{
-    background: url(bg03.jpg);
+    background: url(Fondos/bg03.jpg);
 }
 .FooterInformacion{
     display: flex;
@@ -105,4 +105,34 @@ div.FooterDerechosDeAutor p{
 div.FooterDerechosDeAutor a{
     text-decoration:none;
     color: black;
+}
+
+@media (max-width:980px){
+    /* HEADER */
+    .ContainerHeader .header .nav-main .botonMenu img{
+        display: flex;
+        margin-top: 10%;
+      }
+  
+      .header .nav-menu{
+          display: none;
+      }
+  
+      /* FOOTER */
+      .FooterInformacion{
+          flex-direction: column;
+      }
+      .ColumnasFooter{
+          flex-direction: column;
+          width: 100%;
+          text-align: left;
+      }
+      .CosasImportantes{
+          order: 1;
+          margin-top: 1%;
+      }
+      .FooterInformacion{
+          width: 150%;
+      }
+
 }

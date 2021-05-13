@@ -7,16 +7,15 @@
 
 .EstiloContainerText{
     background-color: #f6f6f6;
-    background: url(bg04.png);
+    background: url(Fondos/bg04.png);
 }
 
 .ContainerText{
 display: flex;
 flex-direction: column;
 align-items: left;
-
-margin-left: 10em;
-margin-right: 10em;
+line-height: 2;
+margin: 0 10vw;
 padding: 2em;
 
 background-color: white;
