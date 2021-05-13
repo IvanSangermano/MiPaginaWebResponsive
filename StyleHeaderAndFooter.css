@@ -1,8 +1,9 @@
+/* HEADER */
 .ContainerHeader{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    background: url(img/bg04.jpg);
+    background: url(bg01.jpg);
 }
 
 header{
@@ -11,12 +12,15 @@ header{
     align-items: center;
     padding: 1vw;
     border-bottom: gray 1px solid;
+
 }
  
 nav.nav-main ul{
     display: flex;
     flex-direction: row;
+    margin: 5%;
 }
+
 nav.nav-main h1{
 text-align: left;
 margin-right: 100px;
@@ -25,7 +29,7 @@ margin-right: 100px;
 nav.nav-main a{
     text-decoration: none;
     font-size: 2em;
-    /* color: white; */ 
+    color: white; 
 }
 
 .header li{
@@ -47,28 +51,38 @@ nav.nav-main{
 
 /* FOOTER */ 
 footer{
-    margin: 0 200px;
+    background: url(bg03.jpg);
 }
 .FooterInformacion{
     display: flex;
     flex-direction:row;
+    justify-content: space-between;
     text-align: left;
+    margin: 2vh 15vw;
+    padding: 4vh;
 }
 .ColumnasFooter{
     display: flex;
     flex-direction: row;
 }
+
+div.FilasFooter ul{
+    padding: 1vh;
+}
+
 div.FilasFooter ul li, div.FooterDerechosDeAutor a{
     list-style: none;
     padding-bottom: 2vh;
 }
 div.FilasFooter ul li a{
 color: #546b76;
-border-bottom: solid 1px #b5bec3;
-padding-bottom: 1.5vh;
+padding-bottom: 1vh;
 }
+
 div.CosasImportantes{
-    margin-right: 100px;
+    margin-right: 70px;
+    width: 70%;
+
 }
 div.CosasImportantes p, p.TituloFooter{
     color: black;
@@ -76,7 +90,8 @@ div.CosasImportantes p, p.TituloFooter{
 }
 
 .TextoInformativo{
-    width: 31.9%;
+    width: 40%;
+    line-height: 2;
 }
 
 div.FooterDerechosDeAutor{
