@@ -386,13 +386,37 @@ img{
         margin: 1%;
     }
 }
-/*ANTES DEL FOOTER*/
+
 @media(max-width:736px) {
+
+    /* CABECERA DESPUES DEL HEADER */
+    .Cabecera{
+        flex-direction: column;
+    }
+    
+    .contenedorDeBoton{
+    order: 1;
+    width: 100%;
+    }
+    
+    .Cabecera img{
+    margin-left: 7%;
+    }
+    
+    .SeccionConFotosEInformacion{
+    flex-wrap: wrap;
+    }
+    
+    .ArticulosConFotos
+    {width: 100%;}
+
    .ContenedorSeccionFotos2{
     padding: 2%;
     flex-direction: row;
     width: 100%;
 }
+
+/*2 SECCION*/
 
 .ContenedorSeccionFotos2{
     flex-wrap: wrap;
